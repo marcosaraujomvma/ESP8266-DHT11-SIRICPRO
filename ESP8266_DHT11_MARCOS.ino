@@ -149,7 +149,7 @@ void handleTemperaturesensor() {
     digitalWrite(LED_BUILTIN, HIGH);
     delay(250);
     Serial.printf("DHT reading failed!\r\n");
-    Serial.printf("RESETIN NOW!\r\n");
+    Serial.printf("RESETING NOW!\r\n");
     
     funcReset ();
     
